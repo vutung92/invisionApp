@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DCC66A9E500A5EC1D21DE0E /* Pods_InvisionAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CDC34CDF3F47BC88B4A645 /* Pods_InvisionAppTests.framework */; };
+		A62E4FB120D6B64600486843 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E4FB020D6B64600486843 /* NSObject.swift */; };
+		A62E4FB620D6C98A00486843 /* TDApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E4FB520D6C98A00486843 /* TDApiManager.swift */; };
 		A68793BB20D60EE200184420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68793BA20D60EE200184420 /* AppDelegate.swift */; };
 		A68793BD20D60EE200184420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68793BC20D60EE200184420 /* ViewController.swift */; };
-		A68793C020D60EE200184420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68793BE20D60EE200184420 /* Main.storyboard */; };
 		A68793C220D60EE300184420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68793C120D60EE300184420 /* Assets.xcassets */; };
 		A68793C520D60EE300184420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68793C320D60EE300184420 /* LaunchScreen.storyboard */; };
 		A68793D020D60EE300184420 /* InvisionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68793CF20D60EE300184420 /* InvisionAppTests.swift */; };
 		A68793DB20D60EE300184420 /* InvisionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68793DA20D60EE300184420 /* InvisionAppUITests.swift */; };
+		A68793ED20D612FB00184420 /* IALoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68793EB20D612FB00184420 /* IALoginVC.swift */; };
+		A68793EE20D612FB00184420 /* IALoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68793EC20D612FB00184420 /* IALoginVC.xib */; };
+		A68793F120D6433100184420 /* IATapIDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68793EF20D6433100184420 /* IATapIDVC.swift */; };
+		A68793F220D6433100184420 /* IATapIDVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68793F020D6433100184420 /* IATapIDVC.xib */; };
+		B3CBF98D72E711F4A6851135 /* Pods_InvisionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD25A8B2B3A4EAE6BC3A09B /* Pods_InvisionApp.framework */; };
+		F0679CC9C5E2ACA283C5D8BD /* Pods_InvisionAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0C89437E23518C08265419 /* Pods_InvisionAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B460EBC1DB5A146245DCE42 /* Pods-InvisionAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionAppTests/Pods-InvisionAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		38CDC34CDF3F47BC88B4A645 /* Pods_InvisionAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvisionAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD25A8B2B3A4EAE6BC3A09B /* Pods_InvisionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvisionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0C89437E23518C08265419 /* Pods_InvisionAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvisionAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98663225A7532B9CE8CBE389 /* Pods-InvisionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionApp/Pods-InvisionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A62E4FB020D6B64600486843 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		A62E4FB520D6C98A00486843 /* TDApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDApiManager.swift; sourceTree = "<group>"; };
 		A68793B720D60EE200184420 /* InvisionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvisionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68793BA20D60EE200184420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68793BC20D60EE200184420 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A68793BF20D60EE200184420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A68793C120D60EE300184420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A68793C420D60EE300184420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A68793C620D60EE300184420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +61,14 @@
 		A68793D620D60EE300184420 /* InvisionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvisionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68793DA20D60EE300184420 /* InvisionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvisionAppUITests.swift; sourceTree = "<group>"; };
 		A68793DC20D60EE300184420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68793EB20D612FB00184420 /* IALoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IALoginVC.swift; sourceTree = "<group>"; };
+		A68793EC20D612FB00184420 /* IALoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IALoginVC.xib; sourceTree = "<group>"; };
+		A68793EF20D6433100184420 /* IATapIDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IATapIDVC.swift; sourceTree = "<group>"; };
+		A68793F020D6433100184420 /* IATapIDVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IATapIDVC.xib; sourceTree = "<group>"; };
+		D150D82334231082FDCE2E25 /* Pods-InvisionAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionAppUITests/Pods-InvisionAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB944E1FF9816BC0D5D01403 /* Pods-InvisionAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionAppUITests/Pods-InvisionAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC33663080B82A2B821A8E3F /* Pods-InvisionAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionAppTests/Pods-InvisionAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2540A126B5DC377F43E42A9 /* Pods-InvisionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionApp/Pods-InvisionApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3CBF98D72E711F4A6851135 /* Pods_InvisionApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DCC66A9E500A5EC1D21DE0E /* Pods_InvisionAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0679CC9C5E2ACA283C5D8BD /* Pods_InvisionAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22FF5AC0711D12746C6D7793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CD25A8B2B3A4EAE6BC3A09B /* Pods_InvisionApp.framework */,
+				38CDC34CDF3F47BC88B4A645 /* Pods_InvisionAppTests.framework */,
+				6B0C89437E23518C08265419 /* Pods_InvisionAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A62E4FAF20D6B5EE00486843 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A62E4FB020D6B64600486843 /* NSObject.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A62E4FB220D6C94300486843 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A62E4FB320D6C94900486843 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A62E4FB420D6C96300486843 /* HttpRequest */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A62E4FB420D6C96300486843 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A62E4FB520D6C98A00486843 /* TDApiManager.swift */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
 		A68793AE20D60EE200184420 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +147,8 @@
 				A68793CE20D60EE300184420 /* InvisionAppTests */,
 				A68793D920D60EE300184420 /* InvisionAppUITests */,
 				A68793B820D60EE200184420 /* Products */,
+				D4E3CAF4D28C14DA39D25273 /* Pods */,
+				22FF5AC0711D12746C6D7793 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +165,12 @@
 		A68793B920D60EE200184420 /* InvisionApp */ = {
 			isa = PBXGroup;
 			children = (
+				A62E4FB320D6C94900486843 /* Service */,
+				A62E4FB220D6C94300486843 /* Model */,
+				A62E4FAF20D6B5EE00486843 /* Extension */,
+				A68793E820D6127100184420 /* ViewController */,
 				A68793BA20D60EE200184420 /* AppDelegate.swift */,
 				A68793BC20D60EE200184420 /* ViewController.swift */,
-				A68793BE20D60EE200184420 /* Main.storyboard */,
 				A68793C120D60EE300184420 /* Assets.xcassets */,
 				A68793C320D60EE300184420 /* LaunchScreen.storyboard */,
 				A68793C620D60EE300184420 /* Info.plist */,
@@ -125,6 +196,30 @@
 			path = InvisionAppUITests;
 			sourceTree = "<group>";
 		};
+		A68793E820D6127100184420 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A68793EB20D612FB00184420 /* IALoginVC.swift */,
+				A68793EC20D612FB00184420 /* IALoginVC.xib */,
+				A68793EF20D6433100184420 /* IATapIDVC.swift */,
+				A68793F020D6433100184420 /* IATapIDVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D4E3CAF4D28C14DA39D25273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98663225A7532B9CE8CBE389 /* Pods-InvisionApp.debug.xcconfig */,
+				F2540A126B5DC377F43E42A9 /* Pods-InvisionApp.release.xcconfig */,
+				EC33663080B82A2B821A8E3F /* Pods-InvisionAppTests.debug.xcconfig */,
+				1B460EBC1DB5A146245DCE42 /* Pods-InvisionAppTests.release.xcconfig */,
+				EB944E1FF9816BC0D5D01403 /* Pods-InvisionAppUITests.debug.xcconfig */,
+				D150D82334231082FDCE2E25 /* Pods-InvisionAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A68793DF20D60EE300184420 /* Build configuration list for PBXNativeTarget "InvisionApp" */;
 			buildPhases = (
+				977F2EA0060C37594D47393D /* [CP] Check Pods Manifest.lock */,
 				A68793B320D60EE200184420 /* Sources */,
 				A68793B420D60EE200184420 /* Frameworks */,
 				A68793B520D60EE200184420 /* Resources */,
+				C02829CBB24D3A8BEBE09B7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A68793E220D60EE300184420 /* Build configuration list for PBXNativeTarget "InvisionAppTests" */;
 			buildPhases = (
+				113D245F23C5672A3254A8B8 /* [CP] Check Pods Manifest.lock */,
 				A68793C720D60EE300184420 /* Sources */,
 				A68793C820D60EE300184420 /* Frameworks */,
 				A68793C920D60EE300184420 /* Resources */,
+				3C4C7F5833993CC8F41BE454 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A68793E520D60EE300184420 /* Build configuration list for PBXNativeTarget "InvisionAppUITests" */;
 			buildPhases = (
+				6983B794752F5E27B187427A /* [CP] Check Pods Manifest.lock */,
 				A68793D220D60EE300184420 /* Sources */,
 				A68793D320D60EE300184420 /* Frameworks */,
 				A68793D420D60EE300184420 /* Resources */,
+				D01E0DEF327294DCD81B5C40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +332,8 @@
 			files = (
 				A68793C520D60EE300184420 /* LaunchScreen.storyboard in Resources */,
 				A68793C220D60EE300184420 /* Assets.xcassets in Resources */,
-				A68793C020D60EE200184420 /* Main.storyboard in Resources */,
+				A68793EE20D612FB00184420 /* IALoginVC.xib in Resources */,
+				A68793F220D6433100184420 /* IATapIDVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +353,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		113D245F23C5672A3254A8B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InvisionAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C4C7F5833993CC8F41BE454 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InvisionAppTests/Pods-InvisionAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvisionAppTests/Pods-InvisionAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6983B794752F5E27B187427A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InvisionAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		977F2EA0060C37594D47393D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InvisionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C02829CBB24D3A8BEBE09B7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InvisionApp/Pods-InvisionApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvisionApp/Pods-InvisionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D01E0DEF327294DCD81B5C40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InvisionAppUITests/Pods-InvisionAppUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvisionAppUITests/Pods-InvisionAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A68793B320D60EE200184420 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +477,10 @@
 			files = (
 				A68793BD20D60EE200184420 /* ViewController.swift in Sources */,
 				A68793BB20D60EE200184420 /* AppDelegate.swift in Sources */,
+				A62E4FB120D6B64600486843 /* NSObject.swift in Sources */,
+				A68793ED20D612FB00184420 /* IALoginVC.swift in Sources */,
+				A62E4FB620D6C98A00486843 /* TDApiManager.swift in Sources */,
+				A68793F120D6433100184420 /* IATapIDVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +516,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A68793BE20D60EE200184420 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A68793BF20D60EE200184420 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A68793C320D60EE300184420 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,9 +643,11 @@
 		};
 		A68793E020D60EE300184420 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98663225A7532B9CE8CBE389 /* Pods-InvisionApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85RQJP2CR;
 				INFOPLIST_FILE = InvisionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +662,11 @@
 		};
 		A68793E120D60EE300184420 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2540A126B5DC377F43E42A9 /* Pods-InvisionApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85RQJP2CR;
 				INFOPLIST_FILE = InvisionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +681,7 @@
 		};
 		A68793E320D60EE300184420 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC33663080B82A2B821A8E3F /* Pods-InvisionAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +702,7 @@
 		};
 		A68793E420D60EE300184420 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B460EBC1DB5A146245DCE42 /* Pods-InvisionAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +723,7 @@
 		};
 		A68793E620D60EE300184420 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB944E1FF9816BC0D5D01403 /* Pods-InvisionAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +743,7 @@
 		};
 		A68793E720D60EE300184420 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D150D82334231082FDCE2E25 /* Pods-InvisionAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

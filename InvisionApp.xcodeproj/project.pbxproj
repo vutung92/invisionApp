@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1DCC66A9E500A5EC1D21DE0E /* Pods_InvisionAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CDC34CDF3F47BC88B4A645 /* Pods_InvisionAppTests.framework */; };
 		A62E4FB120D6B64600486843 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E4FB020D6B64600486843 /* NSObject.swift */; };
-		A62E4FB620D6C98A00486843 /* TDApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E4FB520D6C98A00486843 /* TDApiManager.swift */; };
 		A68793BB20D60EE200184420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68793BA20D60EE200184420 /* AppDelegate.swift */; };
 		A68793BD20D60EE200184420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68793BC20D60EE200184420 /* ViewController.swift */; };
 		A68793C220D60EE300184420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68793C120D60EE300184420 /* Assets.xcassets */; };
@@ -21,6 +20,11 @@
 		A68793F120D6433100184420 /* IATapIDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68793EF20D6433100184420 /* IATapIDVC.swift */; };
 		A68793F220D6433100184420 /* IATapIDVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68793F020D6433100184420 /* IATapIDVC.xib */; };
 		B3CBF98D72E711F4A6851135 /* Pods_InvisionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD25A8B2B3A4EAE6BC3A09B /* Pods_InvisionApp.framework */; };
+		BA54D4BE20D74C12006805D2 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA54D4BD20D74C12006805D2 /* UserDefaults.swift */; };
+		BA54D4C020D74D00006805D2 /* IAApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA54D4BF20D74D00006805D2 /* IAApiManager.swift */; };
+		BA54D4C220D74D57006805D2 /* IAApikey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA54D4C120D74D57006805D2 /* IAApikey.swift */; };
+		BA54D4C420D75590006805D2 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA54D4C320D75590006805D2 /* UITextField.swift */; };
+		BA54D4C620D75806006805D2 /* IAUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA54D4C520D75806006805D2 /* IAUserData.swift */; };
 		F0679CC9C5E2ACA283C5D8BD /* Pods_InvisionAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0C89437E23518C08265419 /* Pods_InvisionAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +52,6 @@
 		6B0C89437E23518C08265419 /* Pods_InvisionAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvisionAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98663225A7532B9CE8CBE389 /* Pods-InvisionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionApp/Pods-InvisionApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A62E4FB020D6B64600486843 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
-		A62E4FB520D6C98A00486843 /* TDApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDApiManager.swift; sourceTree = "<group>"; };
 		A68793B720D60EE200184420 /* InvisionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvisionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68793BA20D60EE200184420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68793BC20D60EE200184420 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +68,11 @@
 		A68793EC20D612FB00184420 /* IALoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IALoginVC.xib; sourceTree = "<group>"; };
 		A68793EF20D6433100184420 /* IATapIDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IATapIDVC.swift; sourceTree = "<group>"; };
 		A68793F020D6433100184420 /* IATapIDVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IATapIDVC.xib; sourceTree = "<group>"; };
+		BA54D4BD20D74C12006805D2 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		BA54D4BF20D74D00006805D2 /* IAApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAApiManager.swift; sourceTree = "<group>"; };
+		BA54D4C120D74D57006805D2 /* IAApikey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAApikey.swift; sourceTree = "<group>"; };
+		BA54D4C320D75590006805D2 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		BA54D4C520D75806006805D2 /* IAUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IAUserData.swift; path = InvisionApp/Extension/IAUserData.swift; sourceTree = SOURCE_ROOT; };
 		D150D82334231082FDCE2E25 /* Pods-InvisionAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionAppUITests/Pods-InvisionAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EB944E1FF9816BC0D5D01403 /* Pods-InvisionAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionAppUITests/Pods-InvisionAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC33663080B82A2B821A8E3F /* Pods-InvisionAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvisionAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvisionAppTests/Pods-InvisionAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				A62E4FB020D6B64600486843 /* NSObject.swift */,
+				BA54D4BD20D74C12006805D2 /* UserDefaults.swift */,
+				BA54D4C320D75590006805D2 /* UITextField.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -120,6 +130,7 @@
 		A62E4FB220D6C94300486843 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BA54D4C520D75806006805D2 /* IAUserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -135,7 +146,8 @@
 		A62E4FB420D6C96300486843 /* HttpRequest */ = {
 			isa = PBXGroup;
 			children = (
-				A62E4FB520D6C98A00486843 /* TDApiManager.swift */,
+				BA54D4BF20D74D00006805D2 /* IAApiManager.swift */,
+				BA54D4C120D74D57006805D2 /* IAApikey.swift */,
 			);
 			path = HttpRequest;
 			sourceTree = "<group>";
@@ -477,9 +489,13 @@
 			files = (
 				A68793BD20D60EE200184420 /* ViewController.swift in Sources */,
 				A68793BB20D60EE200184420 /* AppDelegate.swift in Sources */,
+				BA54D4C420D75590006805D2 /* UITextField.swift in Sources */,
 				A62E4FB120D6B64600486843 /* NSObject.swift in Sources */,
 				A68793ED20D612FB00184420 /* IALoginVC.swift in Sources */,
-				A62E4FB620D6C98A00486843 /* TDApiManager.swift in Sources */,
+				BA54D4C020D74D00006805D2 /* IAApiManager.swift in Sources */,
+				BA54D4BE20D74C12006805D2 /* UserDefaults.swift in Sources */,
+				BA54D4C220D74D57006805D2 /* IAApikey.swift in Sources */,
+				BA54D4C620D75806006805D2 /* IAUserData.swift in Sources */,
 				A68793F120D6433100184420 /* IATapIDVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,8 @@ import UIKit
 
 class IALoginVC: UIViewController {
 
+    var userdata: IAUserData?
+    
     @IBOutlet weak var txtUserName: UITextField!{
         didSet {
             //txtUserName.layer.cornerRadius =  5
@@ -18,6 +20,7 @@ class IALoginVC: UIViewController {
             let leftView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 10.0, height: 2.0))
             txtUserName.leftView = leftView
             txtUserName.leftViewMode = .always
+            
         }
     }
     
@@ -31,21 +34,24 @@ class IALoginVC: UIViewController {
     }
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.setNeedsStatusBarAppearanceUpdate()
+    }
+    
+    func signIn(username: String?, password: String?, completion: @escaping (ABC?) -> Void){
+        let params: [String: Any] = [
+            IAApiKey.username: username ?? "",
+            IAApiKey.password: password ?? ""
+        ]
+        IAApiManager.sharedInstance.postSignIn(params: params) { (data) in
+            completion(data)
+        }
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return UIStatusBarStyle.lightContent
     }
-    
-    /*override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        UIApplication.shared.statusBarStyle = .lightContent
-    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -54,9 +60,15 @@ class IALoginVC: UIViewController {
     
     
     @IBAction func actionSignIn(_ sender: Any) {
-        let vc = IATapIDVC(nibName: IATapIDVC.typeName, bundle: Bundle.main)
-        self.present(vc, animated: true, completion: nil)
-        
+        self.signIn(username: txtUserName.text, password: txtPassword.text, completion: { (data) in
+            if data != nil {
+                print(data?.user?.first_name)
+                let vc = IATapIDVC(nibName: IATapIDVC.typeName, bundle: Bundle.main)
+                self.present(vc, animated: true, completion: nil)
+            }else {
+                print("error")
+            }
+        })
     }
     
 }

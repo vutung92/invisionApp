@@ -52,7 +52,7 @@ class IAUserData: Mappable
    
 }
 
-class ABC: Mappable {
+class IAUser: Mappable {
     var user: IAUserData?
     var token: String?
     

@@ -13,6 +13,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IATapIDVC" customModule="InvisionApp" customModuleProvider="target">
             <connections>
+                <outlet property="lblCourse" destination="dqA-02-dXd" id="nyc-8s-t6x"/>
+                <outlet property="lblDepartment" destination="lMB-wD-ThB" id="UHZ-sS-7Wa"/>
+                <outlet property="lblExpriryDate" destination="Vkb-6u-RXI" id="t1e-cw-Po4"/>
+                <outlet property="lblFirstName" destination="dAd-q3-jgt" id="elI-6Y-VO5"/>
+                <outlet property="lblLastName" destination="TDQ-Vt-ZIp" id="yAr-v6-tl5"/>
+                <outlet property="lblLibraryNumber" destination="RVg-Gy-ez0" id="pW2-Cl-Pc8"/>
+                <outlet property="lblStartDate" destination="YgC-kA-9Zk" id="KjC-4l-d6C"/>
+                <outlet property="lblStudentNumber" destination="bMF-mu-KI2" id="wUc-7y-Sfe"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="viewTapID" destination="Wj4-G9-04p" id="a9L-pK-qoO"/>
             </connections>
@@ -210,7 +218,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26th Sep 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgC-kA-9Zk">
-                                                            <rect key="frame" x="15" y="24" width="118.5" height="21"/>
+                                                            <rect key="frame" x="15" y="24" width="147.5" height="21"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -221,6 +229,7 @@
                                                         <constraint firstItem="YgC-kA-9Zk" firstAttribute="leading" secondItem="sLH-A9-t6H" secondAttribute="leading" constant="15" id="Gok-Bu-7NA"/>
                                                         <constraint firstItem="Boa-Lp-ng0" firstAttribute="leading" secondItem="sLH-A9-t6H" secondAttribute="leading" constant="15" id="HYm-NU-KdT"/>
                                                         <constraint firstAttribute="bottom" secondItem="YgC-kA-9Zk" secondAttribute="bottom" constant="5" id="ImX-kV-jNA"/>
+                                                        <constraint firstAttribute="trailing" secondItem="YgC-kA-9Zk" secondAttribute="trailing" constant="5" id="e8R-W2-KWD"/>
                                                         <constraint firstItem="Boa-Lp-ng0" firstAttribute="top" secondItem="sLH-A9-t6H" secondAttribute="top" constant="5" id="f6e-Pg-Utq"/>
                                                     </constraints>
                                                 </view>
@@ -234,7 +243,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17th May 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vkb-6u-RXI" userLabel="0248235A">
-                                                            <rect key="frame" x="15" y="24" width="118.5" height="21"/>
+                                                            <rect key="frame" x="15" y="24" width="147.5" height="21"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -242,6 +251,7 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="Vkb-6u-RXI" secondAttribute="trailing" constant="5" id="Da9-Ni-aAw"/>
                                                         <constraint firstItem="Vkb-6u-RXI" firstAttribute="leading" secondItem="Fx3-ji-7hM" secondAttribute="leading" constant="15" id="EW2-n9-zNn"/>
                                                         <constraint firstItem="a9Z-hE-4RR" firstAttribute="top" secondItem="Fx3-ji-7hM" secondAttribute="top" constant="5" id="RNE-WK-pJ0"/>
                                                         <constraint firstAttribute="bottom" secondItem="Vkb-6u-RXI" secondAttribute="bottom" constant="5" id="chp-6L-rgp"/>
@@ -274,7 +284,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mathematics and Statistics with Management BSc" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqA-02-dXd">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mathematics and Statistics with Management BSc" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqA-02-dXd">
                                                             <rect key="frame" x="15" y="24" width="305" height="41"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <nil key="textColor"/>

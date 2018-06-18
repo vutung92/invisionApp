@@ -14,9 +14,6 @@ class IALoginVC: UIViewController {
     
     @IBOutlet weak var txtUserName: UITextField!{
         didSet {
-            //txtUserName.layer.cornerRadius =  5
-            //txtUserName.layer.borderColor = UIColor.black.cgColor
-            //txtUserName.layer.borderWidth = 1
             let leftView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 10.0, height: 2.0))
             txtUserName.leftView = leftView
             txtUserName.leftViewMode = .always
@@ -39,7 +36,7 @@ class IALoginVC: UIViewController {
         self.setNeedsStatusBarAppearanceUpdate()
     }
     
-    func signIn(username: String?, password: String?, completion: @escaping (ABC?) -> Void){
+    func signIn(username: String?, password: String?, completion: @escaping (IAUser?) -> Void){
         let params: [String: Any] = [
             IAApiKey.username: username ?? "",
             IAApiKey.password: password ?? ""
@@ -62,8 +59,8 @@ class IALoginVC: UIViewController {
     @IBAction func actionSignIn(_ sender: Any) {
         self.signIn(username: txtUserName.text, password: txtPassword.text, completion: { (data) in
             if data != nil {
-                print(data?.user?.first_name)
                 let vc = IATapIDVC(nibName: IATapIDVC.typeName, bundle: Bundle.main)
+                vc.userdata = data?.user
                 self.present(vc, animated: true, completion: nil)
             }else {
                 print("error")

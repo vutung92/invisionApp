@@ -53,13 +53,13 @@ class IAApiManager {
         }
     }
     
-    func postSignIn(params: [String: Any], completion: @escaping (ABC?) -> Void) {
+    func postSignIn(params: [String: Any], completion: @escaping (IAUser?) -> Void) {
         post(path: IAApiKey.POST_SIGN_IN, params: params) { (error,data) in
             if error != nil {
                 completion(nil)
             } else {
                 let stringJson = String(data: data!, encoding: .utf8)
-                completion(Mapper<ABC>().map(JSONString: stringJson!))
+                completion(Mapper<IAUser>().map(JSONString: stringJson!))
             }
         }
     }
